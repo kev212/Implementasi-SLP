@@ -74,7 +74,7 @@ pn = Perceptron(0.1, 30)
 pn.fit(X, y)
 plt.plot(range(1, len(pn.accuracy) + 1), pn.accuracy, marker='o')
 plt.xlabel('Epochs')
-plt.ylabel('Number of misclassifications')
+plt.ylabel('Accuracy (%)')
 plt.show()
 
 
